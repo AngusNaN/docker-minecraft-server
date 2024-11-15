@@ -4,7 +4,8 @@ services:
     environment:
       EULA: "true"
       MEMORY: 26G
-      TYPE: SPIGOT
+      TYPE: PAPER
+      PAPER_CHANNEL: stable
       ENABLE_WHITELIST: true
       WHITELIST: '${WHITELIST}'
       RCON_PASSWORD: '${RCON_PWD}'
