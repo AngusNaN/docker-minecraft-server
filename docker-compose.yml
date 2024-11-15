@@ -13,7 +13,7 @@ services:
       - "25565:25565"
     volumes:
       - data:/data
-      - plugins:/plugins
+      - ./plugins:/plugins
     stdin_open: true
     tty: true
     restart: unless-stopped
