@@ -5,7 +5,7 @@ services:
       EULA: "true"
       MEMORY: 26G
       TYPE: PAPER
-      PAPER_CHANNEL: DEFAULT
+      PAPER_CHANNEL: EXPERIMENTAL
       ENABLE_WHITELIST: true
       WHITELIST: '${WHITELIST}'
       RCON_PASSWORD: '${RCON_PWD}'
