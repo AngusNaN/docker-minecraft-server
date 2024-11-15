@@ -3,6 +3,11 @@ services:
     image: itzg/minecraft-server
     environment:
       EULA: "true"
+      MEMORY: 26G
+      TYPE: SPIGOT
+      ENABLE_WHITELIST: true
+      WHITELIST: '${WHITELIST}'
+      RCON_PASSWORD: '${RCON_PWD}'
     ports:
       - "25565:25565"
     volumes:
