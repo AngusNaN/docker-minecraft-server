@@ -15,8 +15,6 @@ services:
       ALLOW_NETHER: false
       SPAWN_PROTECTION: 2
       VIEW_DISTANCE: 16
-      SERVER_NAME: "§d⭐ §l§6Jessy's Winter-Wunderland §d⭐"
-      
     ports:
       - "25565:25565"
       - "24454:24454/udp"
