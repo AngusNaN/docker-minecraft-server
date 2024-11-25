@@ -6,6 +6,7 @@ services:
       MEMORY: 26G
       TYPE: PAPER
       PAPER_CHANNEL: DEFAULT
+      VERSION: 1.21.1
       ENABLE_WHITELIST: true
       WHITELIST: '${WHITELIST}'
       RCON_PASSWORD: '${RCON_PWD}'
